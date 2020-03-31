@@ -5,7 +5,7 @@ on:
     tags:
       - v1
     paths:
-      - 'test/*'
+      - 'src/main/java/*'
 
 jobs:
   hello_world_job:
