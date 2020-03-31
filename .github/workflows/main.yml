@@ -1,4 +1,11 @@
-on: [push]
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - v1
+    paths:
+      - 'test/*'
 
 jobs:
   hello_world_job:
